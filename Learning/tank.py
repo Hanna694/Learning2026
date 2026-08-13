@@ -9,5 +9,4 @@ def tank_erstellung ():
       } 
     return tank 
 
-tank_erstellung()
 tank = tank_erstellung()
