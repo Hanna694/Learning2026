@@ -10,3 +10,10 @@ def tank_erstellung ():
     return tank 
 
 tank = tank_erstellung()
+
+
+def tank_zustand(tank):           
+    if tank["Fuelhoehe"] == 0 :                   
+        return("Zustand - leer")             
+    elif tank["Fuelhoehe"] > 0:                   
+        return("Zustand - nicht leer")    
